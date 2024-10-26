@@ -24,7 +24,7 @@ const EventsPage = () => {
     };
 
     return (
-        <div className="min-h-screen pt-20 pb-10">
+        <div className=" bg-black min-h-screen pt-20 pb-10">
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                 <div className="mb-8">
                     <SearchBar value={searchTerm} onChange={setSearchTerm} />

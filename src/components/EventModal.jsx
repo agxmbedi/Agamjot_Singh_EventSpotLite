@@ -1,8 +1,25 @@
+import React, { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { XMarkIcon } from "@heroicons/react/24/outline";
+import { CheckCircleIcon } from "@heroicons/react/24/solid";
 
 const EventModal = ({ event, isOpen, onClose }) => {
+    const [isLoading, setIsLoading] = useState(false);
+    const [isConfirmed, setIsConfirmed] = useState(false);
+
     if (!event) return null;
+
+    const handleBooking = () => {
+        setIsLoading(true);
+        setTimeout(() => {
+            setIsLoading(false);
+            setIsConfirmed(true);
+            setTimeout(() => {
+                setIsConfirmed(false);
+                onClose();
+            }, 2000);
+        }, 2000);
+    };
 
     return (
         <AnimatePresence>
@@ -78,39 +95,37 @@ const EventModal = ({ event, isOpen, onClose }) => {
                                     </div>
                                 </div>
 
-                                {/* <div className="mt-6">
-                                    <button
-                                        onClick={onClose}
-                                        className="w-full bg-indigo-600 text-white py-2 px-4 rounded hover:bg-indigo-700 transition-colors"
-                                    >
-                                        Close
-                                    </button>
-                                    <button
-                                        onClick={onClose}
-                                        className="w-full bg-indigo-600 text-white py-2 px-4 rounded hover:bg-indigo-700 transition-colors"
-                                    >
-                                        Book
-                                    </button>
-                                </div> */}
                                 <div className="mt-6 flex gap-4">
                                     <button
                                         onClick={onClose}
-                                        className="w-full bg-indigo-600 text-white py-2 px-4 rounded hover:bg-indigo-700 transition-colors"
+                                        className="w-full bg-gray-600 text-white py-2 px-4 rounded hover:bg-gray-700 transition-colors"
+                                        disabled={isLoading}
                                     >
                                         Close
                                     </button>
-                                    <a href="https://google.com" target="_blank" rel="noopener noreferrer" className="w-full">
-                                        <button
-                                            className="w-full bg-indigo-600 text-white py-2 px-4 rounded hover:bg-indigo-700 transition-colors"
-                                        >
-                                            Book
-                                        </button>
-                                    </a>
+                                    <button
+                                        onClick={handleBooking}
+                                        className="w-full bg-indigo-600 text-white py-2 px-4 rounded hover:bg-indigo-700 transition-colors relative"
+                                        disabled={isLoading || isConfirmed}
+                                    >
+                                        {isLoading ? (
+                                            <span className="flex items-center justify-center">
+                                                <svg className="animate-spin h-5 w-5 mr-3" viewBox="0 0 24 24">
+                                                    <circle className="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" strokeWidth="4" />
+                                                    <path className="opacity-75" fill="currentColor" d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4zm2 5.291A7.962 7.962 0 014 12H0c0 3.042 1.135 5.824 3 7.938l3-2.647z" />
+                                                </svg>
+                                                Booking...
+                                            </span>
+                                        ) : isConfirmed ? (
+                                            <span className="flex items-center justify-center">
+                                                <CheckCircleIcon className="h-5 w-5 mr-2 text-green-500" />
+                                                Tickets Confirmed!
+                                            </span>
+                                        ) : (
+                                            "Book"
+                                        )}
+                                    </button>
                                 </div>
-
-                                
-
-
                             </div>
                         </motion.div>
                     </div>
