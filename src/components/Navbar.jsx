@@ -13,8 +13,8 @@ const Navbar = () => {
           <Link to="/artists" className="hover:text-gray-300">Artists</Link>
         </div>
         <div className="flex items-center space-x-4">
-          <button className="text-xl">🔍</button>
-          <button className="text-xl">☰</button>
+          {/* <button className="text-xl">🔍</button>
+          <button className="text-xl">☰</button> */}
         </div>
       </div>
     </nav>
