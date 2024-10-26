@@ -101,7 +101,7 @@ export const events = [
         description:
             "SARAS MELA Mohali is one of the largest and most celebrated carnivals in Punjab, renowned for promoting talented artisans from across India. This vibrant fair is a hub for traditional crafts, music, and food, offering visitors an authentic experience of India’s diverse cultural heritage.",
         category: "Culture",
-        price: "₹499",
+        price: "₹599",
         organizer: "Punjab Heritage Association",
     },
     {
