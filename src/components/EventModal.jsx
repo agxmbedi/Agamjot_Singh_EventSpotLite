@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
-import { XMarkIcon } from "@heroicons/react/24/outline";
-import { CheckCircleIcon } from "@heroicons/react/24/solid";
+import { FaTimes, FaCheckCircle } from 'react-icons/fa';
 
 const EventModal = ({ event, isOpen, onClose }) => {
     const [isLoading, setIsLoading] = useState(false);
@@ -44,7 +43,7 @@ const EventModal = ({ event, isOpen, onClose }) => {
                                 onClick={onClose}
                                 className="absolute top-4 right-4 text-gray-500 hover:text-gray-700"
                             >
-                                <XMarkIcon className="h-6 w-6" />
+                                <FaTimes className="h-6 w-6" />
                             </button>
 
                             <img
@@ -118,7 +117,7 @@ const EventModal = ({ event, isOpen, onClose }) => {
                                             </span>
                                         ) : isConfirmed ? (
                                             <span className="flex items-center justify-center">
-                                                <CheckCircleIcon className="h-5 w-5 mr-2 text-green-500" />
+                                                <FaCheckCircle className="h-5 w-5 mr-2 text-green-500" />
                                                 Tickets Confirmed!
                                             </span>
                                         ) : (

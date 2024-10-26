@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import { MagnifyingGlassIcon } from "@heroicons/react/24/outline";
+import { FaSearch } from 'react-icons/fa';
 
 const SearchBar = ({ value, onChange }) => {
     return (
@@ -9,7 +9,7 @@ const SearchBar = ({ value, onChange }) => {
             className="max-w-xl mx-auto"
         >
             <div className="relative">
-                <MagnifyingGlassIcon className="absolute left-3 top-1/2 transform -translate-y-1/2 h-5 w-5 text-gray-400" />
+                <FaSearch className="absolute left-3 top-1/2 transform -translate-y-1/2 h-5 w-5 text-gray-400" />
                 <input
                     type="text"
                     value={value}
