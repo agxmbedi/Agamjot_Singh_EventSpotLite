@@ -5,7 +5,7 @@ export const events = [
         date: "2024-11-10",
         time: "5:00 PM",
         location: "Fair Ground, Sub. City Center, Sector 34B",
-        image: "src/images/media-desktop-bangr-carnival-0-2024-10-12-t-15-10-40.jpg.avif",
+        image: "./src/images/media-desktop-bangr-carnival-0-2024-10-12-t-15-10-40.jpg.avif",
         description:
             "India`s Biggest Carnival is arriving on the 9th and 10th of November,Two days of action, because one day just isn’t enough!🔥 featuring Billboard-topping artists like Divine, Talwiinder, Aditya Rikhari, The Yellow Diary, Tricksingh",
 
@@ -32,7 +32,7 @@ export const events = [
         date: "2024-12-14",
         time: "7:00-11:00 PM",
         location: "Chandigarh,Punjab,India",
-        image: "src/images/1972f38023c561f25b5c96e0b99cad471725427375.png.avif",
+        image: "https://i.postimg.cc/02yqw6Zy/1972f38023c561f25b5c96e0b99cad471725427375-png.avif",
         description:
     "Global music icon Diljit Dosanjh brings his blockbuster Dil-Luminati Tour to 10 cities across India! After smashing records with sold-out shows across North America, Australia, and New Zealand, he's ready to set India ablaze with his electrifying energy.",
         category: "Live Show",
