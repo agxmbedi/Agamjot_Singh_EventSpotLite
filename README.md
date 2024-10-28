@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # EventSpot Lite
 
 EventSpot Lite is a single-page web application where users can discover local events nearby. The app features a visually appealing interface with smooth animations, responsiveness across devices, and user-friendly interactions.
