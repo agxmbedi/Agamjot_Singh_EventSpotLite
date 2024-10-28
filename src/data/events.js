@@ -5,7 +5,7 @@ export const events = [
         date: "2024-11-10",
         time: "5:00 PM",
         location: "Fair Ground, Sub. City Center, Sector 34B",
-        image: "./src/images/media-desktop-bangr-carnival-0-2024-10-12-t-15-10-40.jpg.avif",
+        image: "https://i.postimg.cc/63knv0wD/media-desktop-bangr-carnival-0-2024-10-12-t-15-10-40-jpg.avif",
         description:
             "India`s Biggest Carnival is arriving on the 9th and 10th of November,Two days of action, because one day just isn’t enough!🔥 featuring Billboard-topping artists like Divine, Talwiinder, Aditya Rikhari, The Yellow Diary, Tricksingh",
 
@@ -19,7 +19,7 @@ export const events = [
         date: "2024-11-30 & 2024-12-1",
         time: "05:00 PM",
         location: "Chandigarh, Punjab India",
-        image: "src/images/media-desktop-chandigarh-comedy-festival-2024-0-2024-10-25-t-5-50-57.jpg.avif",
+        image: "https://i.postimg.cc/8PBM7MY0/media-desktop-chandigarh-comedy-festival-2024-0-2024-10-25-t-5-50-57-jpg.avif",
         description:
             "Chandigarh Comedy Festival is back! Biggest celebration of comedy live in your city with a stellar lineup of over 50 comedians! You would not want to miss out on this. Artist lineup is subject to change.",
         category: "Comedy",
@@ -32,7 +32,7 @@ export const events = [
         date: "2024-12-14",
         time: "7:00-11:00 PM",
         location: "Chandigarh,Punjab,India",
-        image: "https://i.postimg.cc/02yqw6Zy/1972f38023c561f25b5c96e0b99cad471725427375-png.avif",
+        image: "https://i.postimg.cc/44jB66B4/1972f38023c561f25b5c96e0b99cad471725427375-png.avif",
         description:
     "Global music icon Diljit Dosanjh brings his blockbuster Dil-Luminati Tour to 10 cities across India! After smashing records with sold-out shows across North America, Australia, and New Zealand, he's ready to set India ablaze with his electrifying energy.",
         category: "Live Show",
@@ -45,7 +45,7 @@ export const events = [
         date: "2024-11-24",
         time: "5:00 PM",
         location: "Habitat, Chandigarh",
-        image: "src/images/media-desktop-beyond-imagination-by-akashdeep-singh-0-2024-10-10-t-4-30-46.jpg.avif",
+        image: "https://i.postimg.cc/4d9hs9tw/media-desktop-beyond-imagination-by-akashdeep-singh-0-2024-10-10-t-4-30-46-jpg.avif",
         description:
             "Step into the exciting world of Beyond Imagination, an amazing show by Master Mentalist Akashdeep Singh. This performance goes beyond what you think is possible, mixing mind-reading, psychological tricks, and stunning illusions.",
         category: "Magic",
@@ -58,7 +58,7 @@ export const events = [
         date: "2024-10-27",
         time: "11:00 AM",
         location: "Punjab Kala Bhawan: Chandigarh",
-        image: "src/images/media-desktop-priya-malik-live-ishq-hai-0-2024-8-26-t-12-24-1.jpg.avif",
+        image: "https://i.postimg.cc/V6qLKBXy/media-desktop-priya-malik-live-ishq-hai-0-2024-8-26-t-12-24-1-jpg.avif",
         description:
             "“Ishq hai, Ishq hai, Ishq hai “ is Priya’s solo poetry show that will make you feel things you’ve never felt before, the show will make you laugh and cry and sing along.",
         category: "Peotry",
@@ -71,7 +71,7 @@ export const events = [
         date: "2024-12-21",
         time: "5:00 PM",
         location: "Chandigarh",
-        image: "src/images/c_crop,g_custom-v1727524465-ruvxpzhb9y6olqznwjmn.jpg",
+        image: "https://i.postimg.cc/QMWMTrtd/temp-Image-Mi5-Jlr.avif",
         description:
             "Punjabi music sensation AP Dhillon is making a highly anticipated return to India this year as he officially announces a tour in support of his latest EP ‘The Brownprint’.",
         category: "Concert",
@@ -84,7 +84,7 @@ export const events = [
         date: "2024-10-27",
         time: "7:00 PM",
         location: "India Trade Tower-Omaze Chandigarh",
-        image: "src/images/c_crop,g_custom-v1728721040-uvzla0kul8avxjnqleew.jpg",
+        image: "https://i.postimg.cc/JnVz3dDc/temp-Imagex-AAZi2.avif",
         description:
             "Immerse yourself in the unparalleled magic of Shreya Ghoshal’s voice at this exclusive live performance.A mix of Bollywood classics and contemporary hits with stunning live orchestration ",
         category: "Live Show",
@@ -97,7 +97,7 @@ export const events = [
         date: "2024-10-27",
         time: "7:00 PM",
         location: "Mohali",
-        image: "src/images/c_crop,g_custom-v1728997287-jdm1qwijwhkod94whhwm.jpg",
+        image: "https://i.postimg.cc/j2h2SQj6/temp-Image4z8h-J2.avif",
         description:
             "SARAS MELA Mohali is one of the largest and most celebrated carnivals in Punjab, renowned for promoting talented artisans from across India. This vibrant fair is a hub for traditional crafts, music, and food, offering visitors an authentic experience of India’s diverse cultural heritage.",
         category: "Culture",
@@ -110,7 +110,7 @@ export const events = [
         date: "2024-12-21",
         time: "6:00 PM",
         location: "Chandigarh,Mohali,Panchkula",
-        image: "src/images/media-desktop-grown-up-standup-comedy-show-by-jaspreet-singh-0-2024-8-24-t-19-5-9.jpg.avif",
+        image: "https://i.postimg.cc/yx76tgTD/media-desktop-grown-up-standup-comedy-show-by-jaspreet-singh-0-2024-8-24-t-19-5-9-jpg.avif",
         description:
             "Jaspreet Singh takes the stage to talk about his wildest job yet - being a father! From navigating his innate irresponsible nature to the absurdities of modern parenting, Jaspreet weaves a show about men, fatherhood, love and loss",
         category: "Comedy",
@@ -123,7 +123,7 @@ export const events = [
         date: "2025-1-23",
         time: "4:00 PM",
         location: "Chandigarh,Punjab",
-        image: "src/images/media-desktop-piyush-mishra-udankhatola-tour-chandigarh-0-2024-9-19-t-12-46-20.jpg.avif",
+        image: "https://i.postimg.cc/tJDRjqr2/media-desktop-piyush-mishra-udankhatola-tour-chandigarh-0-2024-9-19-t-12-46-20-jpg.avif",
         description:
             "‘Ballimaaraan’ is a musical band led by actor, singer & lyricist Piyush Mishra, their music is soul-touching and profound with a mixed niche style of retro and modern music. The writing has a certain satire and humour which is widely popular amongst fans of all ages, with hits like ‘Aarambh’, ‘Husna’ and ‘Ghar’",
         category: "Music",
@@ -136,7 +136,7 @@ export const events = [
         date: "2024-12-15",
         time: "6:30 PM",
         location: "Multiples Venues",
-        image: "src/images/media-desktop-pannu-yaar-ft-gurleen-pannu-0-2024-8-26-t-13-29-41.jpg.avif",
+        image: "https://i.postimg.cc/2S1ksfn7/media-desktop-pannu-yaar-ft-gurleen-pannu-0-2024-8-26-t-13-29-41-jpg.avif",
         description:
             "‘Pannu Yaar’ is a stand-up comedy show, which will be your one-way ticket into the Pannu-Verse. Her friendly attitude, observational humour, and personal anecdotes will get you in a fit of breathless laughter. Life is full of stories, and Pannu picks the best, presenting them in a manner which reeks of humor and hilarity",
         category: "Comedy",
@@ -149,7 +149,7 @@ export const events = [
         date: "2024-12-7",
         time: "6:00 PM",
         location: "Chandigarh",
-        image: "src/images/media-desktop-karan-aujla-it-was-all-a-dream-0-2024-9-19-t-11-9-17.jpg.avif",
+        image: "https://i.postimg.cc/W3wTGpPT/media-desktop-karan-aujla-it-was-all-a-dream-0-2024-9-19-t-11-9-17-jpg.avif",
         description:
             "Experience the magic of Karan Aujla live on his It Was All A Dream World Tour! Get ready for a night of sensational music as he performs his biggest hits, including the soulful 'Softly', 'Winning Speech', 'IDK HOW' and 'Antidote'. 'Karan Aujla, renowned for his powerful voice and dynamic stage presence, will take you on a musical journey like no other.",
         category: "Live Show",
